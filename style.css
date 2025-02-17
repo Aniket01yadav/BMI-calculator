@@ -59,6 +59,36 @@ input{
     justify-content: center;
     margin-left: -120px;
 }
+@media (max-width:500px){
+    h1{
+        font-size: 30px;
+    }
+    form div{
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    form div input{
+        font-size: 15px;
+        border-radius: 5px;
+        
+    }
+    #weight-guide{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    #parent{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    button{
+        
+        margin-left: 0px;
+    }
+}
 
 
 
